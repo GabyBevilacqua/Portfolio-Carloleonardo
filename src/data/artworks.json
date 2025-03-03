@@ -1,0 +1,24 @@
+{
+    "obras": [
+        {
+            "id": "obra1",
+            "titulo": "Obra 1",
+            "descripcion": "Descripción de la obra 1...",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/hermosa-nube-tinta-rojo-oscuro_23-2148102212.jpg?t=st=1741034169~exp=1741037769~hmac=64c748c3bb0abfab69970e9254a0b38726ca6905892f1c95c934e193bfe68bc7&w=740",
+                "https://img.freepik.com/foto-gratis/briznas-humo-negro-marron_23-2147734812.jpg?t=st=1741034186~exp=1741037786~hmac=e4c43f66c659f3d081c703508a276fcecc2170c6a878a05b990a9d0206e5d0b4&w=740",
+                "https://img.freepik.com/foto-gratis/brillante-abstraccion-coloridas-nubes-tinta_23-2147744727.jpg?t=st=1741034216~exp=1741037816~hmac=8e0f8177470a21c9930fe9c78965924ae1a5fb03b5c7e106d3ad6aac49a6e997&w=740"
+            ]
+        },
+        {
+            "id": "obra2",
+            "titulo": "Obra 2",
+            "descripcion": "Descripción de la obra 2...",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/olas-tormenta-mar-abstracta_23-2148231571.jpg?t=st=1741034417~exp=1741038017~hmac=2b7a74870536def0419c0310fea30cde7a656daf7a1f49509f97d8aa275f0169&w=740",
+                "https://img.freepik.com/foto-gratis/melon-congelado_23-2148176359.jpg?t=st=1741034421~exp=1741038021~hmac=4e81a899619080e86b5dfd7bbf73054a14e7f1f2a85dbedaec43cef118f44e1d&w=740",
+                "https://img.freepik.com/foto-gratis/oscura-densa-nube-humo-roja-liquido_23-2148102224.jpg?t=st=1741034426~exp=1741038026~hmac=54853fa322d4b8933d7a4c9931ec21329b24e4d0063c56d08f3d4f0f9d261be8&w=740"
+            ]
+        }
+    ]
+}
