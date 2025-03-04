@@ -1,9 +1,42 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #383737;   
+    background-color: #1a1818 !important;   
 }
+
+.caveat-nameArtist {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffefef;
+    margin-top: 20px;
+    font-size: 10rem;
+  }
+
+.caveat-portfolio {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffefef;
+    margin-top: 20px;
+    font-size: 10rem;
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    overflow: hidden; /* Oculta el texto que se desborda */
+    animation: scrollText 15s linear infinite; /* Aplica la animación */
+    display: inline-block; /* Permite que la animación funcione correctamente */
+    
+    width: 200%; /* Ancho del contenedor */
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%); /* Inicia desde la derecha */
+    }
+    100% {
+        transform: translateX(-100%); /* Termina a la izquierda */
+    }
+}
+  
 
 .galeria img {
     width: 200px;
