@@ -8,41 +8,57 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #ffefef;
-    margin-top: 20px;
-    font-size: 10rem;
+    font-size: 10vw;  
   }
 
 .caveat-portfolio {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
-    color: #ffefef;
-    margin-top: 20px;
-    font-size: 10rem;
-    white-space: nowrap; /* Evita que el texto se envuelva */
-    overflow: hidden; /* Oculta el texto que se desborda */
-    animation: scrollText 15s linear infinite; /* Aplica la animación */
-    display: inline-block; /* Permite que la animación funcione correctamente */
-    
-    width: 200%; /* Ancho del contenedor */
+    font-style: normal;  
 }
-
-@keyframes scrollText {
+  .marquee-content span {
+    font-size: 50px;
+    margin-right: 15px;
+}
+  /* Contenedor principal */
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffefef;
+    padding: 10px 0;
+    position: relative;
+}
+/* Contenedor del texto en bucle */
+.marquee-content {
+    display: flex;
+    animation: marquee 15s linear infinite;
+    min-width: 100%;
+}
+/* Animación */
+@keyframes marquee {
     0% {
-        transform: translateX(0%); /* Inicia desde la derecha */
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%); /* Termina a la izquierda */
+        transform: translateX(-50%);
     }
 }
-  
 
 .galeria img {
     width: 200px;
     height: auto;
     margin: 10px;
     cursor: pointer;
+    
+}
+img{
+    border-radius: 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 240, 240);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 #imagenes-obra {
@@ -54,6 +70,9 @@ body {
 
 @media (max-width: 400px) {
     #imagenes-obra {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
+}
+.textCream {
+    color: #ffefef;
 }

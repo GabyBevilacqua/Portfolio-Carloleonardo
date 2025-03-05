@@ -2,7 +2,7 @@
     "obras": [
         {
             "id": "obra1",
-            "titulo": "Obra 1",
+            "titulo": "Tucusito",
             "descripcion": "Descripción de la obra 1...",
             "imagenes": [
                 "https://img.freepik.com/foto-gratis/hermosa-nube-tinta-rojo-oscuro_23-2148102212.jpg?t=st=1741034169~exp=1741037769~hmac=64c748c3bb0abfab69970e9254a0b38726ca6905892f1c95c934e193bfe68bc7&w=740",
@@ -12,7 +12,7 @@
         },
         {
             "id": "obra2",
-            "titulo": "Obra 2",
+            "titulo": "Fenix",
             "descripcion": "Descripción de la obra 2...",
             "imagenes": [
                 "https://img.freepik.com/foto-gratis/olas-tormenta-mar-abstracta_23-2148231571.jpg?t=st=1741034417~exp=1741038017~hmac=2b7a74870536def0419c0310fea30cde7a656daf7a1f49509f97d8aa275f0169&w=740",
