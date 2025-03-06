@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 obra.imagenes.forEach(src => {
                     const img = document.createElement('img');
                     img.src = src;
-                    img.className = 'img-fluid m-2 imgObra';
+                    img.className = 'img-fluid m-2 imgObra fade-in';
                     imagenesContainer.appendChild(img);
                 });
             }
