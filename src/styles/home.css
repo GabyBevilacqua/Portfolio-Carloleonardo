@@ -1,22 +1,63 @@
 body {
-    background-color: #1a1818 !important;   
+    background-color: #131313 !important;   
 }
 
-.caveat-nameArtist {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffefef;
-    font-size: 10vw;  
-  }
 
-.caveat-portfolio {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;  
+.text-container {
+  position: relative;
+  max-height: 150px; /* Altura máxima del contenedor de texto */
+  overflow: hidden;
+  margin-bottom: 20px;
 }
+
+.text-container.expanded {
+  max-height: none; /* Permite que el contenedor se expanda */
+}
+
+#read-more-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffefef;
+  color: #1a1818;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#read-more-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
+/*------------ fonts ----------------------*/
+
+/* <weight>: Use a value from 200 to 800
+ <uniquifier>: Use a unique and descriptive class name */
+
+.manrope-texts {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/*// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+
+.oswald-titles {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10vw;
+  color: #ffefef;
+}
+
+
+/*------------ cinta animada -------------------*/
   .marquee-content span {
     font-size: 50px;
     margin-right: 15px;
@@ -42,7 +83,7 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-10%);
     }
 }
 

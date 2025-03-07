@@ -11,36 +11,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column align-items-center body">
-    <p class="text-center mt-5 textCream">Escultor</p>
+    <p class="text-center mt-3 textCream manrope-texts">
+        Escultor
+    </p>
     <header class="text-center my-2">
-        <h1 class="caveat-nameArtist tracking-in-contract">Carloleonardo Aponte</h1>
+        <h1 class="oswald-titles tracking-in-contract">
+            CARLOLEONARDO <br> APONTE
+        </h1>
     </header>
 
-    <section id="introduccion" class="text-center my-4">
-        <h2 class="textCream">Sobre el artista</h2>
-        <p class="textCream">Texto introductorio del artista...</p>
+    <section id="introduccion" class="text-center my-4 col-10">
+        <h2 class="textCream manrope-texts">
+            Sobre el artista
+        </h2>
+        <div class="text-container mb-3">
+        <p class="textCream manrope-texts">
+            Con más de 30 años esculpiendo el hierro y siete explorando la
+            nobleza del acero inoxidable, Carloleonardo Aponte ha llevado la escultura
+            metálica a nuevos horizontes. Su obra es una fusión entre la solidez del
+            metal y la fluidez del arte pictórico, transformando trazos en volúmenes
+            escultóricos con una maestría única. <br>
+
+            Ganador del Premio Nacional de Escultura de Venezuela
+            en 2011, Aponte ha desarrollado técnicas innovadoras
+            como el capeado metálico y el craquelado de acero sobre
+            hierro, generando texturas y contrastes sorprendentes.
+            Su investigación en el movimiento y la flotabilidad de
+            las telas se materializa en esculturas que desafían la
+            rigidez del metal, otorgándole una sensación de
+            ligereza inusual en este medio. <br>
+
+            Su trabajo combina contructivismo, modelado metálico y
+            esculpido por capas, logrando piezas únicas que trascienden
+            la escultura tradicional. Además, sus intervenciones con
+            resinas y tintas sobre hierro y acero amplían las posibilidades
+            expresivas de sus creaciones, haciendo de cada obra un universo
+            singular e irrepetible. <br>
+
+            El arte de Carloleonardo Aponte no solo es una
+            exploración de materiales, sino una reinvención de la
+            escultura contemporánea. Sus piezas, originales y sin
+            precedentes en el mercado artístico, invitan al espectador
+            a descubrir una nueva dimensión donde el metal cobra vida
+            y movimiento.<br>
+            ------------
+        </p>
+        <button id="read-more-btn" class="btn btn-primary mt-4">Leer más</button>
+    </div>
     </section>
 
     <section id="obras" class="text-center my-4">
         <div class="marquee">
             <div class="marquee-content">
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
-                <span class="caveat-portfolio">PORTFOLIO  PORTFOLIO  PORTFOLIO</span>
+                <span class="oswald-titles">PORTFOLIO PORTFOLIO PORTFOLIO</span>
+                <span class="oswald-titles">PORTFOLIO PORTFOLIO PORTFOLIO</span>
+                <span class="oswald-titles">PORTFOLIO PORTFOLIO PORTFOLIO</span>
             </div>
         </div>
-        <div class="galeria d-flex justify-content-center flex-wrap">
+        <div class="galeria d-flex justify-content-center flex-wrap flip-in-hor-top">
             <img src="https://img.freepik.com/foto-gratis/olas-tormenta-mar-abstracta_23-2148231571.jpg?t=st=1741034417~exp=1741038017~hmac=2b7a74870536def0419c0310fea30cde7a656daf7a1f49509f97d8aa275f0169&w=740"
                 alt="Obra 1" class="img-fluid m-2 artwork-image" data-id="obra1">
             <img src="https://img.freepik.com/foto-gratis/briznas-humo-negro-marron_23-2147734812.jpg?t=st=1741034186~exp=1741037786~hmac=e4c43f66c659f3d081c703508a276fcecc2170c6a878a05b990a9d0206e5d0b4&w=740"
@@ -49,13 +82,30 @@
     </section>
 
     <section id="biografia" class="text-center my-4">
-        <h2 class="textCream">Biografía</h2>
-        <p class="textCream">Historia del artista...</p>
+        <h2 class="textCream manrope-texts">
+            Biografía
+        </h2>
+        <p class="textCream manrope-texts">
+            Historia del artista...
+        </p>
+    </section>
+
+    <section id="biografia" class="text-center my-4">
+        <h2 class="textCream manrope-texts">
+            Premios y reconocimientos
+        </h2>
+        <p class="textCream manrope-texts">
+            listado
+        </p>
     </section>
 
     <section id="contacto" class="text-center my-4">
-        <h2 class="textCream">Contacto</h2>
-        <p class="textCream">Email: aponte.carloleonardo@gmail.com</p>
+        <h2 class="textCream manrope-texts">
+            Contacto
+        </h2>
+        <p class="textCream manrope-texts">
+            Email: aponte.carloleonardo@gmail.com
+        </p>
     </section>
 
     <script src="src/js/script.js"></script>
