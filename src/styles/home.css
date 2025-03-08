@@ -1,17 +1,24 @@
 body {
-    background-color: #131313 !important;   
+  background-color: #101418 !important;
 }
 
+.titleBox {
+  box-shadow: 11px 11px 22px #000000,
+    -11px -11px 22px #070707be;
+  border-radius: 20px;
+}
 
 .text-container {
   position: relative;
-  max-height: 150px; /* Altura máxima del contenedor de texto */
+  max-height: 150px;
+  /* Altura máxima del contenedor de texto */
   overflow: hidden;
   margin-bottom: 20px;
 }
 
 .text-container.expanded {
-  max-height: none; /* Permite que el contenedor se expanda */
+  max-height: none;
+  /* Permite que el contenedor se expanda */
 }
 
 #read-more-btn {
@@ -19,7 +26,7 @@ body {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #ffefef;
+  background-color: #A8C0BA;
   color: #1a1818;
   border: none;
   padding: 5px 10px;
@@ -28,7 +35,7 @@ body {
 }
 
 #read-more-btn:hover {
-  background-color: #e0e0e0;
+  background-color: #77867E;
 }
 
 
@@ -52,70 +59,109 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 10vw;
-  color: #ffefef;
+  font-size: 8vw;
+  color: #D8D7D4;
 }
 
 
 /*------------ cinta animada -------------------*/
-  .marquee-content span {
-    font-size: 50px;
-    margin-right: 15px;
+.marquee-content span {
+  font-size: 50px;
+  margin-right: 15px;
 }
-  /* Contenedor principal */
-  .marquee {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    color: #ffefef;
-    padding: 10px 0;
-    position: relative;
+
+/* Contenedor principal */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #D8D7D4;
+  padding: 10px 0;
+  position: relative;
 }
+
 /* Contenedor del texto en bucle */
 .marquee-content {
-    display: flex;
-    animation: marquee 15s linear infinite;
-    min-width: 100%;
+
+  display: inline-flex;
+  animation: marquee linear infinite;
+  /* display: flex;
+  animation: marquee 15s linear infinite;
+  min-width: 100%; */
 }
+
 /* Animación */
 @keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-10%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/*-------------------galeria de imagenes----------------------*/
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  /* Centrar la galería en la página */
+  box-sizing: border-box; /* Incluir padding en el ancho total */
 }
 
 .galeria img {
-    width: 200px;
-    height: auto;
-    margin: 10px;
-    cursor: pointer;
-    
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 2px solid rgb(255, 240, 240);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Agregar una transición suave */
 }
-img{
-    border-radius: 5%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(255, 240, 240);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    
+.galeria img:hover {
+  transform: scale(1.05);
+  /* Efecto de zoom al pasar el mouse */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  /* Sombra más pronunciada al pasar el mouse */
+}
+
+@media (max-width: 600px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Columnas más pequeñas en móviles */
+  }
+}
+
+img {
+  border-radius: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 240, 240);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 #imagenes-obra {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
 }
 
 @media (max-width: 400px) {
-    #imagenes-obra {
-        flex-wrap: wrap;
-    }
+  #imagenes-obra {
+    flex-wrap: wrap;
+  }
 }
+
 .textCream {
-    color: #ffefef;
+  color: #D8D7D4;
 }
 
 /* ----------------------------------------------
@@ -132,34 +178,37 @@ img{
  */
 
 .flip-in-hor-top {
-	-webkit-animation: flip-in-hor-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: flip-in-hor-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: flip-in-hor-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: flip-in-hor-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
- @-webkit-keyframes flip-in-hor-top {
-    0% {
-      -webkit-transform: rotateX(-80deg);
-              transform: rotateX(-80deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-      opacity: 1;
-    }
+@-webkit-keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    opacity: 0;
   }
-  @keyframes flip-in-hor-top {
-    0% {
-      -webkit-transform: rotateX(-80deg);
-              transform: rotateX(-80deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-      opacity: 1;
-    }
+
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
   }
+}
+
+@keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
 
 /* ----------------------------------------------
  * Generated by Animista on 2025-3-6 16:8:19
@@ -173,29 +222,32 @@ img{
  * animation fade-in
  * ----------------------------------------
  */
-  .fade-in {
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
- @-webkit-keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
   }
 
-  /* ----------------------------------------------
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------
  * Generated by Animista on 2025-3-6 16:13:52
  * Licensed under FreeBSD License.
  * See http://animista.net/license for more info. 
@@ -208,36 +260,39 @@ img{
  * ----------------------------------------
  */
 
- .tracking-in-contract {
-	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @-webkit-keyframes tracking-in-contract {
-    0% {
-      letter-spacing: 1em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      letter-spacing: normal;
-      opacity: 1;
-    }
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
   }
-  @keyframes tracking-in-contract {
-    0% {
-      letter-spacing: 1em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      letter-spacing: normal;
-      opacity: 1;
-    }
+
+  40% {
+    opacity: 0.6;
   }
-  
-  
+
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
