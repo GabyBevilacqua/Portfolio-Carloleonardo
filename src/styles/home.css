@@ -2,6 +2,27 @@ body {
   background-color: #101418 !important;
 }
 
+html {
+  scroll-behavior: smooth; /* Aplica scroll suave a toda la página */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgb(14, 13, 13);
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
 .titleBox {
   box-shadow: 11px 11px 22px #000000,
     -11px -11px 22px #070707be;
@@ -35,7 +56,8 @@ body {
 }
 
 #read-more-btn:hover {
-  background-color: #77867E;
+  background-color: #232830;
+  color: #c2c2c2;
 }
 
 

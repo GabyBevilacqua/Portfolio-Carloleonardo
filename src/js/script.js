@@ -33,9 +33,46 @@ document.addEventListener('DOMContentLoaded', function () {
 
     marqueeContent.innerHTML += marqueeContent.innerHTML;
 
-    const speed = 100; // Ajusta este valor para cambiar la velocidad
+    const speed = 100; // Ajustar este valor para cambiar la velocidad
     const duration = totalWidth / speed;
 
     marqueeContent.style.animationDuration = `${duration}s`;
+
+    // Función para el scroll suave
+    function smoothScroll(target, duration) {
+        const targetElement = document.querySelector(target);
+        if (!targetElement) return;
+
+        const targetPosition = targetElement.getBoundingClientRect().top;
+        const startPosition = window.pageYOffset;
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const run = easeInOutCubic(timeElapsed, startPosition, targetPosition, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        // Función de easing (suavizado)
+        function easeInOutCubic(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t-= 2;
+            return c / 2 * (t * t * t + 2) + b;
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    // Event listeners para los enlaces de ancla
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault(); // Evita el comportamiento predeterminado
+            const target = this.getAttribute('href');
+            smoothScroll(target, 1000); // Duración de 1000ms (1 segundo)
+        });
+    });
 
 });
