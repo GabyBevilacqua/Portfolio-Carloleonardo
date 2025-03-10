@@ -12,13 +12,93 @@
         },
         {
             "id": "obra2",
-            "titulo": "Fenix",
+            "titulo": "Ave Fenix",
             "descripcion": "Descripción de la obra 2...",
             "imagenes": [
                 "https://img.freepik.com/foto-gratis/olas-tormenta-mar-abstracta_23-2148231571.jpg?t=st=1741034417~exp=1741038017~hmac=2b7a74870536def0419c0310fea30cde7a656daf7a1f49509f97d8aa275f0169&w=740",
                 "https://img.freepik.com/foto-gratis/melon-congelado_23-2148176359.jpg?t=st=1741034421~exp=1741038021~hmac=4e81a899619080e86b5dfd7bbf73054a14e7f1f2a85dbedaec43cef118f44e1d&w=740",
                 "https://img.freepik.com/foto-gratis/oscura-densa-nube-humo-roja-liquido_23-2148102224.jpg?t=st=1741034426~exp=1741038026~hmac=54853fa322d4b8933d7a4c9931ec21329b24e4d0063c56d08f3d4f0f9d261be8&w=740"
             ]
-        }
+        },
+        {
+            "id": "obra3",
+            "titulo": "Ursula",
+            "descripcion": "Descripción de la obra 3...",
+            "imagenes": [
+                "https://picsum.photos/200"
+            ]
+        },
+        {
+            "id": "obra4",
+            "titulo": "Bruja",
+            "descripcion": "Descripción de la obra 4...",
+            "imagenes": [
+                "https://picsum.photos/id/13/200"
+            ]
+        },
+        {
+            "id": "obra5",
+            "titulo": "Arbol01",
+            "descripcion": "Descripción de la obra 5...",
+            "imagenes": [
+                "https://picsum.photos/id/14/200"
+            ]
+        },
+        {
+            "id": "obra6",
+            "titulo": "Arbol02",
+            "descripcion": "Descripción de la obra 6...",
+            "imagenes": [
+                "https://picsum.photos/id/15/200"
+            ]
+        },
+        {
+            "id": "obra7",
+            "titulo": "Ada",
+            "descripcion": "Descripción de la obra 7...",
+            "imagenes": [
+                "https://picsum.photos/id/16/200"
+            ]
+        },
+        {
+            "id": "obra8",
+            "titulo": "Florero Roto",
+            "descripcion": "Descripción de la obra 8...",
+            "imagenes": [
+                "https://picsum.photos/id/25/200"
+            ]
+        },
+        {
+            "id": "obra9",
+            "titulo": "La Falda",
+            "descripcion": "Descripción de la obra 9...",
+            "imagenes": [
+                "https://picsum.photos/id/34/200"
+            ]
+        },
+        {
+            "id": "obra10",
+            "titulo": "Llama Flor",
+            "descripcion": "Descripción de la obra 10...",
+            "imagenes": [
+                "https://picsum.photos/id/41/200"
+            ]
+        },
+        {
+            "id": "obra11",
+            "titulo": "El Pastor",
+            "descripcion": "Descripción de la obra 11...",
+            "imagenes": [
+                "https://picsum.photos/id/39/200"
+            ]
+        },
+        {
+            "id": "obra12",
+            "titulo": "Nueva",
+            "descripcion": "Descripción de la obra 12...",
+            "imagenes": [
+                "https://picsum.photos/id/72/200"
+            ]
+        }        
     ]
 }
