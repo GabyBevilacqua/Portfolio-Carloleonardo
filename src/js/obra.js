@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (obra) {
                 document.getElementById('titulo-obra').textContent = obra.titulo;
                 document.getElementById('descripcion-obra').textContent = obra.descripcion;
+                document.getElementById('tecnica-obra').textContent = obra.tecnica;
+                document.getElementById('dimensiones-obra').textContent = obra.dimensiones;
+                document.getElementById('precio-obra').textContent = obra.precio;
 
                 const imagenesContainer = document.getElementById('imagenes-obra');
                 obra.imagenes.forEach(src => {
