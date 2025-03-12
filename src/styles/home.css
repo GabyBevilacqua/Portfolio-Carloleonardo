@@ -29,6 +29,25 @@ nav a {
   border-radius: 20px;
 }
 
+/*------------------------------social-media-----------------------*/
+
+#social-media {
+  margin-bottom: 20px;
+}
+
+#social-media a {
+  margin: 0 10px;
+  color: #D8D7D4;
+  /* Color de los iconos */
+}
+
+#social-media a:hover {
+  color: #A8C0BA;
+  /* Color de los iconos al pasar el mouse */
+}
+
+/*---------------------contenedor de info del artista----------------------*/
+
 .text-container {
   position: relative;
   max-height: 150px;
@@ -131,6 +150,7 @@ nav a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  
   padding: 10px;
   margin: 0 auto;
   /* Centrar la galería en la página */
@@ -153,6 +173,18 @@ nav a {
   /* Efecto de zoom al pasar el mouse */
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
   /* Sombra más pronunciada al pasar el mouse */
+}
+
+@media (min-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Más columnas en pantallas medianas */
+  }
+}
+
+@media (min-width: 992px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Aún más columnas en pantallas grandes */
+  }
 }
 
 @media (max-width: 600px) {
