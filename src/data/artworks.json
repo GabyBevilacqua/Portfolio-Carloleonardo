@@ -15,19 +15,54 @@
         },
         {
             "id": "obra2",
+            "titulo": "Delicadeza Salvaje",
+            "descripcion": "La mujer en su estado primitivo o natural con respecto al pensamiento acerca de la mujer contemporánea",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "73 cm X 49 cm X 31 cm 2001",
+            "precio": "Colección privada",
+            "imagenes": [
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza03_xej2c4.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza04_kjmq00.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890452/delicadeza05_la6otv.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890454/delicadeza06_ptulka.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza01_by4wca.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza02_llg2hk.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890456/delicadeza08_gastwh.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890455/delicadeza07_v845kg.jpg"
+            ]
+        },
+        {
+            "id": "obra3",
+            "titulo": "La Ultima Mascara",
+            "descripcion": "Descripción de la obra 2...",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "50 cm X 32 cm X 63 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara01_est8mf.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara02_vlejih.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara03_ejhl96.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara04_drtx8b.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara05_k2mtqh.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara06_jfkjw1.jpg"
+                
+            ]
+        },
+        {
+            "id": "obraX",
             "titulo": "Ave Fenix",
             "descripcion": "Descripción de la obra 2...",
             "tecnica": "Forja fria y esculpido en acero inoxidable.",
             "dimensiones": "50 cm X 32 cm X 63 cm",
             "precio": "Precio de la obra 1...",
             "imagenes": [
-                "https://img.freepik.com/foto-gratis/olas-tormenta-mar-abstracta_23-2148231571.jpg?t=st=1741034417~exp=1741038017~hmac=2b7a74870536def0419c0310fea30cde7a656daf7a1f49509f97d8aa275f0169&w=740",
-                "https://img.freepik.com/foto-gratis/melon-congelado_23-2148176359.jpg?t=st=1741034421~exp=1741038021~hmac=4e81a899619080e86b5dfd7bbf73054a14e7f1f2a85dbedaec43cef118f44e1d&w=740",
-                "https://img.freepik.com/foto-gratis/oscura-densa-nube-humo-roja-liquido_23-2148102224.jpg?t=st=1741034426~exp=1741038026~hmac=54853fa322d4b8933d7a4c9931ec21329b24e4d0063c56d08f3d4f0f9d261be8&w=740"
+                "",
+                ""
+                
             ]
         },
         {
-            "id": "obra3",
+            "id": "obraX",
             "titulo": "Ursula",
             "descripcion": "Descripción de la obra 3...",
             "tecnica": "Forja fria y esculpido en acero inoxidable.",
