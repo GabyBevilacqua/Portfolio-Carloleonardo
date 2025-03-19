@@ -5,7 +5,7 @@
             "titulo": "Tucusito bailando con el viento",
             "descripcion": "En esta obra, me centro en la contemplación del colibrí, símbolo de mi país natal, Venezuela. Su movimiento de alas configura un doble círculo, alineándose con la teoría de Kandinsky sobre la máxima expresividad de una línea, mientras conserva la fluidez y dinamismo característicos de su vuelo.",
             "tecnica": "Esculpido en acero inoxidable.",
-            "dimensiones": "Dimensiones de la obra 1...",
+            "dimensiones": "Dimensiones 2021",
             "precio": "Precio de la obra 1...",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741804386/tucusito01_yt9plq.jpg",
@@ -131,46 +131,66 @@
         },
         {
             "id": "obra9",
-            "titulo": "La Falda",
-            "descripcion": "Cuando te desprendes de tus ataduras comienzas a volar.",
-            "tecnica": "Acero al carbono y acero inoxidable",
-            "dimensiones": "95 cm X 50 cm X 90 cm",
-            "precio": "Precio de la obra 1...",
+            "titulo": "Aducción II",
+            "descripcion": "Cuando te hacen pensar algo contrario a tus intereses.",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "35 cm X 25 cm X 20 cm 2002",
+            "precio": "Vendida",
             "imagenes": [
-                "https://picsum.photos/id/34/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-03_iayvjr.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-02_dak69g.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-04_baivkq.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416607/aduccion1-05_e51eqp.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416610/aduccion1-07_bwbgk8.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416611/aduccion1-08_gtp290.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-01_ty28w1.jpg"
             ]
         },
         {
             "id": "obra10",
-            "titulo": "Llama Flor",
-            "descripcion": "Descripción de la obra 10...",
-            "tecnica": "Técnica y medidas de la obra 1...",
-            "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Precio de la obra 1...",
+            "titulo": "Por la Vida",
+            "descripcion": "Es una pieza que incita a la reflexión de hacer aquello que te motiva y no las funciones mecánicas impuestas por la cotidianidad.",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "106 cm X 166 cm X 70 cm 2000.",
+            "precio": "Colección privada",
             "imagenes": [
-                "https://picsum.photos/id/41/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143800/lavida05_zigwtm.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida04_na0sub.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida03_bjeupg.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida01_pvpkye.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143803/lavida07_kse9tf.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143802/lavida06_wb12cb.jpg"
             ]
         },
         {
             "id": "obra11",
-            "titulo": "El Pastor",
-            "descripcion": "Descripción de la obra 11...",
-            "tecnica": "Técnica y medidas de la obra 1...",
-            "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Precio de la obra 1...",
+            "titulo": "Falsa Seguridad",
+            "descripcion": "Inspirada en el cuestionamiento de la linertad.",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "86 cm X 44 cm X 60 cm 2000",
+            "precio": "Vendida",
             "imagenes": [
-                "https://picsum.photos/id/39/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138206/falsa07_xbkbpx.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa06_t0ewtz.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa05_kycfhx.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa04_bkfez5.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa03_pvlylv.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa02_vwgc8q.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa01_vtstpv.jpg"
             ]
         },
         {
             "id": "obra12",
-            "titulo": "Nueva",
-            "descripcion": "Descripción de la obra 12...",
-            "tecnica": "Técnica y medidas de la obra 1...",
-            "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Precio de la obra 1...",
+            "titulo": "La Contución",
+            "descripcion": "Estudio a la violencia",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "40 cm X 27 cm X 24 cm 2001",
+            "precio": "Vendida",
             "imagenes": [
-                "https://picsum.photos/id/72/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion04_hwatkg.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion01_mju9ns.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion02_tptdcd.jpg"
             ]
         }        
     ]

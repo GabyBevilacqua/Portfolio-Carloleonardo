@@ -26,7 +26,11 @@ nav a {
 .titleBox {
   box-shadow: 11px 11px 22px #000000,
     -11px -11px 22px #070707be;
-  border-radius: 20px;
+ 
+  background-image: url('https://res.cloudinary.com/dzqgni1qi/image/upload/v1742414898/horizontalpeq02_x8ydbd.jpg'); /* Agrega la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-position: center; /* Centra la imagen */
+  width: 100%; /* Ajusta el ancho al 90% de la pantalla */
 }
 
 /*------------------------------social-media-----------------------*/
@@ -101,6 +105,15 @@ nav a {
   font-weight: 600;
   font-style: normal;
   font-size: 8vw;
+  color: #D8D7D4;
+}
+
+.oswald-titles-small {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
   color: #D8D7D4;
 }
 
