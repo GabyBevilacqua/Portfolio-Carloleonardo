@@ -49,38 +49,19 @@
             ]
         },
         {
-            "id": "obraX",
-            "titulo": "Ave Fenix",
-            "descripcion": "Descripción de la obra 2...",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "50 cm X 32 cm X 63 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "",
-                ""
-                
-            ]
-        },
-        {
-            "id": "obraX",
-            "titulo": "Ursula",
-            "descripcion": "Descripción de la obra 3...",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "46 cm X 27 cm X 36 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "https://picsum.photos/200"
-            ]
-        },
-        {
             "id": "obra4",
-            "titulo": "La bruja de la Mancha",
-            "descripcion": "Tacones bordoneantes que embrujan en el latir frenético de un cuerpo danzante, flamenco.",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "61 cm X 31 cm X 31 cm",
-            "precio": "Precio de la obra 1...",
+            "titulo": "Ahogado",
+            "descripcion": "Descripción de la obra 5...",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "30 cm X 25 cm X 20 cm 2002",
+            "precio": "Vendida",
             "imagenes": [
-                "https://picsum.photos/id/13/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado01_rogwiy.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado04_bgibqk.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado03_yzbrvp.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado06_hixtng.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado05_lmq0un.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado02_o7jybe.jpg"
             ]
         },
         {
@@ -98,33 +79,47 @@
         },
         {
             "id": "obra6",
-            "titulo": "Olivo en sueño",
+            "titulo": "Premio Nacional 2011, Conversasión",
             "descripcion": "Descripción de la obra 6...",
-            "tecnica": "Forja fria, esculpido en acero inoxidable y resina con tintas.",
-            "dimensiones": "48 cm X 31 cm X 21 cm",
-            "precio": "Precio de la obra 1...",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "Conjunto de dos piezas",
+            "precio": "S/P",
             "imagenes": [
-                "https://picsum.photos/id/15/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/002_tfhqtt.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/003_nrgihy.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/005_aomwrn.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/004_xv1f2n.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/006_zowdmv.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion01_haz5os.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion02_rhin5e.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491318/conversion03_pdmcmt.jpg"
+                
             ]
         },
         {
             "id": "obra7",
-            "titulo": "El Ada de los ruidos del pensamiento",
+            "titulo": "Complaciendo a la locura",
             "descripcion": "Descripción de la obra 7...",
-            "tecnica": "Mineral de hierro, acero inoxidable y resina con tintas.",
+            "tecnica": "Esculpido en hierro.",
             "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Precio de la obra 1...",
+            "precio": "Vendida",
             "imagenes": [
-                "https://picsum.photos/id/16/200"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491558/complaciendo_la_locura-02_bflkfs.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491555/complaciendo_la_locura-03_qh7bid.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-10_gwwzay.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491559/complaciendo_la_locura-04_vvtupv.jpg"
+               
             ]
         },
         {
             "id": "obra8",
-            "titulo": "Florero Roto",
+            "titulo": "Gárgola",
             "descripcion": "Descripción de la obra 8...",
-            "tecnica": "Acero inoxidable y resina con tintas",
-            "dimensiones": "57 cm X 45 cm X 45 cm",
-            "precio": "Precio de la obra 1...",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "60 cm X 45 cm X 45 cm",
+            "precio": "S/P",
             "imagenes": [
                 "https://picsum.photos/id/25/200"
             ]
@@ -192,6 +187,74 @@
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion01_mju9ns.jpg",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion02_tptdcd.jpg"
             ]
-        }        
+        },
+        {
+            "id": "obraX1",
+            "titulo": "Ave Fenix",
+            "descripcion": "Descripción de la obra 2...",
+            "tecnica": "Forja fria y esculpido en acero inoxidable.",
+            "dimensiones": "50 cm X 32 cm X 63 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "",
+                ""
+                
+            ]
+        },
+        {
+            "id": "obraX2",
+            "titulo": "Ursula",
+            "descripcion": "Descripción de la obra 3...",
+            "tecnica": "Forja fria y esculpido en acero inoxidable.",
+            "dimensiones": "46 cm X 27 cm X 36 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://picsum.photos/200"
+            ]
+        },
+        {
+            "id": "obraX3",
+            "titulo": "La bruja de la Mancha",
+            "descripcion": "Tacones bordoneantes que embrujan en el latir frenético de un cuerpo danzante, flamenco.",
+            "tecnica": "Forja fria y esculpido en acero inoxidable.",
+            "dimensiones": "61 cm X 31 cm X 31 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://picsum.photos/id/13/200"
+            ]
+        },
+        {
+            "id": "obraX4",
+            "titulo": "Olivo en sueño",
+            "descripcion": "Descripción de la obra 6...",
+            "tecnica": "Forja fria, esculpido en acero inoxidable y resina con tintas.",
+            "dimensiones": "48 cm X 31 cm X 21 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://picsum.photos/id/15/200"
+            ]
+        },
+        {
+            "id": "obraX7",
+            "titulo": "El Ada de los ruidos del pensamiento",
+            "descripcion": "Descripción de la obra 7...",
+            "tecnica": "Mineral de hierro, acero inoxidable y resina con tintas.",
+            "dimensiones": "Dimensiones de la obra 1...",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://picsum.photos/id/16/200"
+            ]
+        },
+        {
+            "id": "obraX8",
+            "titulo": "Florero Roto",
+            "descripcion": "Descripción de la obra 8...",
+            "tecnica": "Acero inoxidable y resina con tintas",
+            "dimensiones": "57 cm X 45 cm X 45 cm",
+            "precio": "Precio de la obra 1...",
+            "imagenes": [
+                "https://picsum.photos/id/25/200"
+            ]
+        }     
     ]
 }
