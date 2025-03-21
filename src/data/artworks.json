@@ -66,11 +66,11 @@
         },
         {
             "id": "obra5",
-            "titulo": "Analogía de la arboleda",
-            "descripcion": "Descripción de la obra 5...",
+            "titulo": "Analogía de la arboleda, Mención Especial, II Premio Nacional de Escultura María Belén Morales 2021",
+            "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
             "tecnica": "Acero inoxidable y resina con tintas",
-            "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Precio de la obra 1...",
+            "dimensiones": "39 cm X 30 cm X 17 cm, 2021",
+            "precio": "Disponible",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741804386/arboleda01_lloybq.jpg",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741804386/arboleda02_hwkwpa.jpg",
@@ -186,6 +186,45 @@
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion04_hwatkg.jpg",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion01_mju9ns.jpg",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion02_tptdcd.jpg"
+            ]
+        },
+        {
+            "id": "obra13",
+            "titulo": "Gárgola",
+            "descripcion": "Esta pieza, hecha en acero y soldadura de arco, representa una gárgola destinada a asustar a la muerte y dar paso a la paz. Su concepto surge de la destrucción de ciudades e ideas por factores económicos, religiosos y políticos. El artista rechaza el 'arte de maletín', dominado por la burocracia y el mercado, en favor de un arte auténtico, nacido de la soledad del taller y el respeto a las diferencias. Critica la comercialización del arte, que lo aleja de su sentido humano y trascendencia. La obra desafía la estética convencional y reivindica el arte con contenido y significado.",
+            "tecnica": "Esculpido en hierro.",
+            "dimensiones": "40 cm X 27 cm X 24 cm 2016",
+            "precio": "Disponible (en Venezuela)",
+            "imagenes": [
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0133_vdrmjp.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0134_blc6cp.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0136_apclmf.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0137_nrlp4q.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0138_iokb2n.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0140_nzj2yq.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0142_wjm3k9.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0147_cpks8k.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0145_ciwstn.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0153_uqaync.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0150_qazx9v.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135305_lf6jah.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135148_lb0yvm.jpg"
+            ]
+        },
+        {
+            "id": "obra14",
+            "titulo": "Volumen abstracto",
+            "descripcion": "...",
+            "tecnica": "Lámina de hierro al carbón",
+            "dimensiones": "50 cm X 32 cm X 63 cm",
+            "precio": "Disponible (en Venezuela)",
+            "imagenes": [
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578974/retorcida002_dyspt2.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578976/retorcida004_jdrdhu.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida006_fszzuj.jpg", 
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida003_nlvr7m.jpg",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida005_u0prrn.jpg"             
             ]
         },
         {
