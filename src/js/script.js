@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         function easeInOutCubic(t, b, c, d) {
             t /= d / 2;
             if (t < 1) return c / 2 * t * t + b;
-            t-= 2;
+            t -= 2;
             return c / 2 * (t * t * t + 2) + b;
         }
 
@@ -75,4 +75,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+});
+
+//listtener para que el navbar cambie de color al hacer scroll
+document.addEventListener('DOMContentLoaded', function () {
+    const nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 100) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
 });
