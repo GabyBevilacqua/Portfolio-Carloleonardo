@@ -75,6 +75,33 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+// Animaciones con GSAP y ScrollTrigger
+
+    gsap.from("#introduccion", {
+        y: 100, // Comienza desde 100 píxeles abajo
+        opacity: 0, // Comienza con opacidad 0
+        duration: 2,
+        scrollTrigger: {
+            trigger: "#introduccion", // Elemento que dispara la animación
+            start: "top bottom",
+            end: "top center", // Cuando la parte superior del elemento "#introduccion" alcance el centro de la ventana
+            scrub: true, // Permite que la animación se controle con el scroll
+            markers: false, // Muestra los marcadores de inicio y fin (útil para depurar)
+        }
+    });
+
+    gsap.from("#premios", {
+        y: 50,
+        opacity: 0,
+        duration: 0.5,
+        scrollTrigger: {
+            trigger: "#premios",
+            start: "top 80%",
+            end: "top 50%",
+            scrub: true,
+        }
+    });
+
 });
 
 //listtener para que el navbar cambie de color al hacer scroll
